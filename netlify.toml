@@ -3,7 +3,7 @@
   command = "npm run build"
 
 [build.environment]
-  REACT_APP_API_URL = "https://your-backend-repl-name.your-username.repl.co/api"
+  REACT_APP_API_URL = "https://alfa-crm.replit.app/api"
 
 [[redirects]]
   from = "/*"
@@ -11,7 +11,7 @@
   status = 200
 
 [context.production.environment]
-  REACT_APP_API_URL = "https://your-backend-repl-name.your-username.repl.co/api"
+  REACT_APP_API_URL = "https://alfa-crm.replit.app/api"
 
 [context.deploy-preview.environment]
-  REACT_APP_API_URL = "https://your-backend-repl-name.your-username.repl.co/api" 
+  REACT_APP_API_URL = "https://alfa-crm.replit.app/api" 

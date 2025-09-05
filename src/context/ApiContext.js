@@ -23,9 +23,8 @@ const getApiBaseUrl = () => {
     return 'http://localhost:5000/api';
   }
   
-  // For production, try to auto-detect or use a default
-  // You can update this with your actual backend URL
-  return 'https://your-backend-repl-name.your-username.repl.co/api';
+  // For production, use your actual Replit backend URL
+  return 'https://alfa-crm.replit.app/api';
 };
 
 const API_BASE_URL = getApiBaseUrl();
